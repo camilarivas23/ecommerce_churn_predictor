@@ -1,0 +1,20 @@
+{
+  "feature_names": [
+    "total_orders",
+    "total_items_purchased",
+    "unique_products_bought",
+    "avg_cart_size",
+    "unique_categories_bought",
+    "total_spent",
+    "avg_order_value",
+    "avg_product_rating",
+    "avg_discount_pct",
+    "avg_price_per_item"
+  ],
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 100,
+  "max_depth": 10,
+  "churn_threshold_days": 30,
+  "n_features": 10,
+  "training_samples": 166
+}
